@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  test-runner:
+    build: .
+    image: task-analyzer-tests
+    container_name: task_analyzer_test_suite
